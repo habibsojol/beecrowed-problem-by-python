@@ -1,0 +1,5 @@
+name = str(input())
+A = float(input())
+B = float(input())
+S = A + ((B*15)/100)
+print(f"TOTAL = R$ {S:.2f}")
