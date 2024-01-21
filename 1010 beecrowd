@@ -1,0 +1,6 @@
+n1 = input().split()
+a, b, c = n1
+n2 = input().split()
+x, y, z =n2
+total = (int(b)*float(c)) + (int(y)*float(z))
+print(f"VALOR A PAGAR: R$ {total :.2f}")
