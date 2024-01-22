@@ -1,0 +1,14 @@
+n1 = input().split()
+A, B, C = n1
+pi = 3.14159
+M = (1/2) * float(A) * float(C)
+N = pi  * float(C) * float(C)
+O = ((float(A) + float(B) )/2) * float(C)
+P = float(B) * float(B)
+Q = float(A) * float(B)
+
+print(f"TRIANGULO: {M :.3f}")
+print(f"CIRCULO: {N :.3f}")
+print(f"TRAPEZIO: {O :.3f}")
+print(f"QUADRADO: {P :.3f}")
+print(f"RETANGULO: {Q :.3f}")
